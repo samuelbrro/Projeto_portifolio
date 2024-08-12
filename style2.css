@@ -1,0 +1,29 @@
+/* Estilos básicos para o corpo e a página */
+body {
+    background-image: url('/images/calculadora.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Logo */
+.logo {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-bottom: 20px; /* Espaço abaixo do logo */
+}
+
+/* Container de cadastro */
+.card {
+    margin: 20px;
+}
+
+/* Estilo para o card */
+.card-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

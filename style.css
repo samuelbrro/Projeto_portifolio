@@ -1,0 +1,82 @@
+/* Estilos básicos para o corpo e a página */
+body {
+    background-image: url('/images/calculadora.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+/* Logo */
+.logo {
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-bottom: 20px; /* Espaço abaixo do logo */
+}
+
+/* Container de login */
+.card {
+    margin: 20px;
+}
+
+/* Estilo para o card */
+.card-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container de login */
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+}
+
+
+/* Título */
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Grupos de entrada */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Entradas */
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Botão de enviar */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
